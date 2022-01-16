@@ -6,7 +6,7 @@
 
   // while this one is an internal state data
   // let sembarang = "hiohoho";
-  $: parsed = generateCode(word);
+  $: parsed = word ? generateCode(word) : "";
 </script>
 
 <textarea bind:value={word} rows="3" cols="100" />
