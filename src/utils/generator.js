@@ -50,7 +50,7 @@ const translateMorse = (input) => {
  * @param {string} input 
  */
 export const generateCode = (input = "") => {
-  const regex = /[a-z0-9,\?\\!/\(\)&:;+=_$@]+/g
+  const regex = /[a-z0-9,\?\\!\(\)&:;+=_$@]+/g
   // TODO: better converter
   // do regex to check if there's alphabet so we convert from
   // alphabet to morse
